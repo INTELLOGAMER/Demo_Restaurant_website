@@ -1,0 +1,1129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <title>The Saffron Table | Contemporary Indian Fine Dining | Website Demo</title>
+  <meta name="description" content="The Saffron Table — A Taste Worth Remembering. Contemporary Indian fine dining celebrating heritage recipes, slow-simmered spices, and modern culinary artistry. Complete restaurant website sales demo.">
+  <meta name="theme-color" content="#172C24">
+
+  <!-- OpenGraph Meta Tags for Rich Social Sharing -->
+  <meta property="og:title" content="The Saffron Table — Contemporary Indian Fine Dining">
+  <meta property="og:description" content="A Taste Worth Remembering. Explore the refined website concept crafted for luxury dining establishments.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/images/hero-bg.jpg">
+
+  <!-- Google Fonts: Cormorant Garamond (Serif) & Manrope (Sans-serif) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Accessible Skip Navigation Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- ==========================================================================
+       A. Navigation
+       ========================================================================== -->
+  <header class="site-header" id="site-header">
+    <div class="container header-container">
+      
+      <!-- Restaurant Wordmark -->
+      <a href="#hero" class="brand-wordmark" aria-label="The Saffron Table - Home">
+        <span class="brand-title">THE SAFFRON TABLE</span>
+        <span class="brand-subtitle">Contemporary Indian Fine Dining</span>
+      </a>
+
+      <!-- Desktop & Mobile Navigation Wrapper -->
+      <div class="nav-menu-wrapper" id="nav-menu-wrapper">
+        <div class="mobile-drawer-header">
+          <span class="brand-title" style="font-size: 1.15rem;">THE SAFFRON TABLE</span>
+          <button class="mobile-drawer-close" id="mobile-drawer-close" aria-label="Close navigation menu">✕</button>
+        </div>
+
+        <nav aria-label="Main Navigation">
+          <ul class="nav-menu" id="nav-menu">
+            <li><a href="#hero" class="nav-link active">Home</a></li>
+            <li><a href="#story" class="nav-link">Our Story</a></li>
+            <li><a href="#menu" class="nav-link">Menu</a></li>
+            <li><a href="#experience" class="nav-link">Experience</a></li>
+            <li><a href="#gallery" class="nav-link">Gallery</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+
+        <!-- Mobile Drawer Contact Shortcut -->
+        <div class="mobile-nav-footer">
+          <a href="#reservations" class="btn btn-gold btn-nav-reserve" style="width: 100%;">Reserve a Table</a>
+        </div>
+      </div>
+
+      <!-- Backdrop for Mobile Navigation -->
+      <div class="nav-backdrop" id="nav-backdrop" aria-hidden="true"></div>
+
+      <!-- Header CTAs & Hamburger Toggle -->
+      <div class="header-cta-group">
+        <a href="#reservations" class="btn btn-gold btn-nav-reserve">Reserve a Table</a>
+        
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu-wrapper">
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       Main Content
+       ========================================================================== -->
+  <main id="main-content">
+
+    <!-- ==========================================================================
+         B. Hero Section
+         ========================================================================== -->
+    <section class="hero-section" id="hero" aria-label="Welcome to The Saffron Table">
+      <div class="hero-background">
+        <img src="assets/images/hero-bg.jpg" alt="Atmospheric interior of The Saffron Table with warm candlelight and fine dining table settings" class="hero-bg-img" fetchpriority="high">
+        <div class="hero-overlay"></div>
+      </div>
+
+      <div class="container" style="display: flex; flex-direction: column; align-items: center; justify-content: center; flex-grow: 1;">
+        <div class="hero-content reveal">
+          <span class="hero-eyebrow">CONTEMPORARY INDIAN CUISINE</span>
+          <h1 class="hero-title">Tradition, <span class="hero-title-italic">Reimagined.</span></h1>
+          <p class="hero-description">
+            An intimate ode to the rich culinary tapestries of the Indian subcontinent. Slow-simmered heritage recipes, hand-pounded spices, and modern culinary artistry in the heart of New Delhi.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#menu" class="btn btn-hero-primary">
+              <span>Explore Our Menu</span>
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+            <a href="#reservations" class="btn btn-hero-secondary">Reserve a Table</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Architectural Bottom Hero Ribbon -->
+      <div class="hero-footer-ribbon reveal" aria-label="Essential Restaurant Details">
+        <div class="ribbon-col">
+          <span class="ribbon-label">SANCTUARY</span>
+          <span class="ribbon-val">Connaught Place, New Delhi</span>
+        </div>
+        <div class="ribbon-divider" aria-hidden="true"></div>
+        <div class="ribbon-col">
+          <span class="ribbon-label">HOURS OF SERVICE</span>
+          <span class="ribbon-val">Lunch 12:30–3:30 PM &bull; Dinner 7:00–11:30 PM</span>
+        </div>
+        <div class="ribbon-divider" aria-hidden="true"></div>
+        <div class="ribbon-col">
+          <span class="ribbon-label">HOSPITALITY</span>
+          <span class="ribbon-val">Valet Available &bull; Private Alcoves</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         C. Introduction / Our Philosophy
+         ========================================================================== -->
+    <section class="section section-warm" id="story" aria-label="About The Saffron Table">
+      <div class="container">
+        <div class="philosophy-grid">
+          
+          <!-- Image Column with Floating Framing -->
+          <div class="philosophy-image-wrap reveal">
+            <div class="philosophy-frame">
+              <img src="assets/images/philosophy.jpg" alt="Artisanal whole spices and fragrant saffron strands in stone mortar" class="philosophy-img" loading="lazy">
+            </div>
+            <aside class="philosophy-quote-badge" aria-label="Kitchen Ethos Quote">
+              <p class="quote-serif">“Spices are not merely heat; they are melody, memory, and heritage.”</p>
+              <span class="quote-author">The Culinary Ethos</span>
+            </aside>
+          </div>
+
+          <!-- Editorial Text Column -->
+          <div class="philosophy-text-col reveal">
+            <header class="section-header text-left" style="margin-bottom: 1.5rem;">
+              <span class="eyebrow eyebrow-accent">A LITTLE ABOUT US</span>
+              <h2 class="section-title">Rooted in tradition.<br>Made for today.</h2>
+            </header>
+
+            <p class="lead">
+              At The Saffron Table, every plate is an homage to India’s diverse spice corridors — from the slow clay tandoors of Punjab to the fragrant saffron valleys of Kashmir and the coastal peppercorn groves of Malabar.
+            </p>
+
+            <p>
+              We honor time-honored cooking methods: slow-simmering on charcoal embers, hand-pounding our spice blends daily, and tempering cold-pressed oils at precise temperatures. Yet our presentation is unashamedly contemporary, celebrating seasonal produce from sustainable local growers.
+            </p>
+
+            <p>
+              The result is a dining experience that feels familiar yet unexpected, soulful yet meticulously artful — served with genuine Indian hospitality.
+            </p>
+
+            <div class="philosophy-signature-row">
+              <button type="button" class="link-editorial" id="btn-open-story" aria-haspopup="dialog">
+                <span>Discover Our Story</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </button>
+
+              <span class="demo-tag" title="Demonstration content for client pitch">Fictional Demo Restaurant Concept</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         D. Signature Dishes
+         ========================================================================== -->
+    <section class="section" id="menu" aria-label="Signature Dishes">
+      <div class="container">
+        
+        <header class="section-header reveal">
+          <span class="eyebrow eyebrow-accent">CHEF’S SIGNATURES</span>
+          <h2 class="section-title">Culinary Highlights</h2>
+          <p class="section-subtitle">A curated selection of our most celebrated dishes, balancing ancestral techniques with refined modern execution.</p>
+        </header>
+
+        <div class="dishes-grid">
+          
+          <!-- Dish 1: Tandoori Paneer Tikka -->
+          <article class="dish-card reveal">
+            <div class="dish-img-wrap">
+              <img src="assets/images/paneer-tikka.jpg" alt="Smoked Tandoori Paneer Tikka with fresh mint chutney" class="dish-img" loading="lazy">
+            </div>
+            <div class="dish-content">
+              <span class="dish-category-eyebrow">Clay Oven &bull; Kashmiri Chili</span>
+              <div class="dish-header">
+                <h3 class="dish-name">Tandoori Paneer Tikka</h3>
+                <span class="dish-price">₹349</span>
+              </div>
+              <p class="dish-desc">
+                Smoked organic cottage cheese steeped in Kashmiri chili, cold-pressed mustard oil, and hung curd, blistered to tenderness in our charcoal clay oven.
+              </p>
+              <div class="dish-footer-meta">
+                <span class="diet-pill"><span class="diet-indicator" aria-hidden="true"></span> Vegetarian</span>
+                <span>House Favorite</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Dish 2: Dum Biryani -->
+          <article class="dish-card reveal">
+            <div class="dish-img-wrap">
+              <img src="assets/images/dum-biryani.jpg" alt="Fragrant Dum Biryani layered with saffron and fried shallots in a copper handi" class="dish-img" loading="lazy">
+            </div>
+            <div class="dish-content">
+              <span class="dish-category-eyebrow">Awadhi Heritage &bull; Slow Dum Steam</span>
+              <div class="dish-header">
+                <h3 class="dish-name">Dum Biryani</h3>
+                <span class="dish-price">₹449</span>
+              </div>
+              <p class="dish-desc">
+                Aged long-grain basmati rice layered with caramelized shallots, fresh garden herbs, and hand-ground royal garam masala, sealed in purdah and slow-steamed.
+              </p>
+              <div class="dish-footer-meta">
+                <span class="diet-pill"><span class="diet-indicator" aria-hidden="true"></span> Awadhi Style</span>
+                <span>Slow-Cooked</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Dish 3: Dal Saffron -->
+          <article class="dish-card reveal">
+            <div class="dish-img-wrap">
+              <img src="assets/images/dal-saffron.jpg" alt="Dal Saffron finished with churned white butter and cream" class="dish-img" loading="lazy">
+            </div>
+            <div class="dish-content">
+              <span class="dish-category-eyebrow">House Specialty &bull; 36-Hour Simmer</span>
+              <div class="dish-header">
+                <h3 class="dish-name">Dal Saffron</h3>
+                <span class="dish-price">₹329</span>
+              </div>
+              <p class="dish-desc">
+                Our house specialty black lentils, simmered patiently for thirty-six hours over dying embers, finished with farm-churned white butter and saffron cream.
+              </p>
+              <div class="dish-footer-meta">
+                <span class="diet-pill"><span class="diet-indicator" aria-hidden="true"></span> Vegetarian</span>
+                <span>36-Hr Simmer</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Dish 4: Gulab Jamun Cheesecake -->
+          <article class="dish-card reveal">
+            <div class="dish-img-wrap">
+              <img src="assets/images/gulab-jamun-cheesecake.jpg" alt="Artisanal Gulab Jamun Cheesecake garnished with crushed pistachios" class="dish-img" loading="lazy">
+            </div>
+            <div class="dish-content">
+              <span class="dish-category-eyebrow">Artisanal Pastry &bull; Rose Reduction</span>
+              <div class="dish-header">
+                <h3 class="dish-name">Gulab Jamun Cheesecake</h3>
+                <span class="dish-price">₹249</span>
+              </div>
+              <p class="dish-desc">
+                Velvety cardamom-scented baked cheesecake on a crushed almond-pistachio crust, topped with artisanal miniature gulab jamun soaked in rose syrup.
+              </p>
+              <div class="dish-footer-meta">
+                <span class="diet-pill"><span class="diet-indicator" aria-hidden="true"></span> Vegetarian</span>
+                <span>Pastry Craft</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- Full Menu Action -->
+        <div class="dishes-cta-wrap reveal">
+          <button type="button" class="btn btn-dark" id="btn-view-full-menu">
+            <span>Explore The Complete Menu</span>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </button>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         E. Restaurant Experience
+         ========================================================================== -->
+    <section class="section section-dark" id="experience" aria-label="The Dining Experience">
+      <div class="container">
+        <div class="experience-layout">
+          
+          <!-- Image Frame -->
+          <div class="experience-img-container reveal">
+            <div class="experience-img-frame">
+              <img src="assets/images/experience.jpg" alt="Sophisticated dining room interior at The Saffron Table with warm pendant lights and plush banquette seating" class="experience-img" loading="lazy">
+            </div>
+          </div>
+
+          <!-- Editorial Experience Pillars -->
+          <div class="experience-text-container reveal">
+            <header class="section-header text-left" style="margin-bottom: 2rem;">
+              <span class="eyebrow eyebrow-accent">THE ATMOSPHERE</span>
+              <h2 class="section-title">An Atmosphere of Unhurried Grace</h2>
+              <p class="section-subtitle">Designed to transport you away from the city’s bustle into a sanctuary of warmth, acoustic comfort, and timeless elegance.</p>
+            </header>
+
+            <div class="experience-pillars">
+              <div class="pillar-item">
+                <span class="pillar-number">01</span>
+                <div>
+                  <h3 class="pillar-title">Intimate Dinners</h3>
+                  <p class="pillar-desc">Low ambient lighting, hand-spun table linens, and quiet corners curated for thoughtful conversations and romantic evenings.</p>
+                </div>
+              </div>
+
+              <div class="pillar-item">
+                <span class="pillar-number">02</span>
+                <div>
+                  <h3 class="pillar-title">Family Gatherings</h3>
+                  <p class="pillar-desc">Generous communal dining tables, multi-course sharing feasts, and warm hospitality that honors the joy of togetherness.</p>
+                </div>
+              </div>
+
+              <div class="pillar-item">
+                <span class="pillar-number">03</span>
+                <div>
+                  <h3 class="pillar-title">Milestone Celebrations</h3>
+                  <p class="pillar-desc">Dedicated private dining alcoves, tailor-made tasting menus, and attentive staff to elevate birthdays, anniversaries, and corporate dinners.</p>
+                </div>
+              </div>
+
+              <div class="pillar-item">
+                <span class="pillar-number">04</span>
+                <div>
+                  <h3 class="pillar-title">Gracious Hospitality</h3>
+                  <p class="pillar-desc">Service rooted in the ancestral Indian ethos of <em>Atithi Devo Bhava</em> — greeting every guest as an honored member of our family.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         F. Gallery Section & Lightbox
+         ========================================================================== -->
+    <section class="section" id="gallery" aria-label="Visual Gallery">
+      <div class="container">
+        
+        <header class="section-header reveal">
+          <span class="eyebrow eyebrow-accent">THE VISUAL JOURNEY</span>
+          <h2 class="section-title">Moments &amp; Flavors</h2>
+          <p class="section-subtitle">A glimpse into our dining rooms, culinary craft, and the thoughtful details that shape an unforgettable evening.</p>
+        </header>
+
+        <div class="gallery-grid" id="gallery-grid" role="region" aria-label="Photo Gallery Grid">
+          
+          <!-- Image 1 -->
+          <div class="gallery-item span-2 reveal" tabindex="0" role="button" aria-label="View larger image: Private dining alcove with architectural lighting" data-index="0" data-full="assets/images/gallery-1.jpg" data-caption="Private dining alcove with warm architectural lighting and plush seating">
+            <img src="assets/images/gallery-1.jpg" alt="Private dining alcove with warm architectural lighting and plush seating" class="gallery-thumb" loading="lazy">
+            <div class="gallery-item-overlay">
+              <span class="gallery-item-tag">Interiors</span>
+              <h3 class="gallery-item-title">Private Dining Banquette</h3>
+              <div class="gallery-item-icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+              </div>
+            </div>
+          </div>
+
+          <!-- Image 2 -->
+          <div class="gallery-item reveal" tabindex="0" role="button" aria-label="View larger image: Handcrafted saffron botanical cocktail" data-index="1" data-full="assets/images/gallery-2.jpg" data-caption="The Saffron Elixir — Handcrafted botanical mocktail with Kashmiri saffron and cardamon mist">
+            <img src="assets/images/gallery-2.jpg" alt="Handcrafted saffron botanical cocktail garnished with citrus peel" class="gallery-thumb" loading="lazy">
+            <div class="gallery-item-overlay">
+              <span class="gallery-item-tag">Beverage Craft</span>
+              <h3 class="gallery-item-title">The Saffron Elixir</h3>
+              <div class="gallery-item-icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+              </div>
+            </div>
+          </div>
+
+          <!-- Image 3 -->
+          <div class="gallery-item reveal" tabindex="0" role="button" aria-label="View larger image: Fine dining table setting with gold cutlery and candlelight" data-index="2" data-full="assets/images/gallery-3.jpg" data-caption="Table settings featuring beaten brass cutlery, custom crockery, and warm candlelight">
+            <img src="assets/images/gallery-3.jpg" alt="Fine dining table setting with gold cutlery, crystal glasses and candlelight" class="gallery-thumb" loading="lazy">
+            <div class="gallery-item-overlay">
+              <span class="gallery-item-tag">Table Setting</span>
+              <h3 class="gallery-item-title">Candlelit Ambiance</h3>
+              <div class="gallery-item-icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+              </div>
+            </div>
+          </div>
+
+          <!-- Image 4 -->
+          <div class="gallery-item reveal" tabindex="0" role="button" aria-label="View larger image: Charcoal clay tandoor cooking" data-index="3" data-full="assets/images/gallery-4.jpg" data-caption="Traditional charcoal clay oven where tikkas and artisanal kulchas are blistered at 450°C">
+            <img src="assets/images/gallery-4.jpg" alt="Charcoal clay oven preparation with live embers" class="gallery-thumb" loading="lazy">
+            <div class="gallery-item-overlay">
+              <span class="gallery-item-tag">Kitchen Craft</span>
+              <h3 class="gallery-item-title">Clay Oven Mastery</h3>
+              <div class="gallery-item-icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+              </div>
+            </div>
+          </div>
+
+          <!-- Image 5 -->
+          <div class="gallery-item reveal" tabindex="0" role="button" aria-label="View larger image: Traditional Indian royal dessert presentation" data-index="4" data-full="assets/images/gallery-5.jpg" data-caption="Shahi Tukda & Pistachio Rabri dessert with edible silver foil and edible marigold petals">
+            <img src="assets/images/gallery-5.jpg" alt="Artisanal royal Indian dessert topped with pistachios and rose petals" class="gallery-thumb" loading="lazy">
+            <div class="gallery-item-overlay">
+              <span class="gallery-item-tag">Sweet Indulgence</span>
+              <h3 class="gallery-item-title">Pistachio &amp; Rabri</h3>
+              <div class="gallery-item-icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+              </div>
+            </div>
+          </div>
+
+          <!-- Image 6 -->
+          <div class="gallery-item span-2 reveal" tabindex="0" role="button" aria-label="View larger image: The main dining room evening sanctuary" data-index="5" data-full="assets/images/gallery-6.jpg" data-caption="The Main Dining Room during twilight dinner service">
+            <img src="assets/images/gallery-6.jpg" alt="The main dining room during evening service with subtle warm lighting" class="gallery-thumb" loading="lazy">
+            <div class="gallery-item-overlay">
+              <span class="gallery-item-tag">The Sanctuary</span>
+              <h3 class="gallery-item-title">Twilight Service</h3>
+              <div class="gallery-item-icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Accessible Lightbox Modal -->
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image Preview Lightbox">
+      <div class="lightbox-dialog" id="lightbox-dialog">
+        
+        <button type="button" class="lightbox-close" id="lightbox-close" aria-label="Close image lightbox">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
+
+        <button type="button" class="lightbox-arrow prev" id="lightbox-prev" aria-label="Previous image">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"></polyline></svg>
+        </button>
+
+        <div class="lightbox-img-wrapper">
+          <img src="" alt="" class="lightbox-img" id="lightbox-img">
+        </div>
+
+        <button type="button" class="lightbox-arrow next" id="lightbox-next" aria-label="Next image">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </button>
+
+        <div class="lightbox-caption-bar">
+          <p class="lightbox-caption" id="lightbox-caption"></p>
+          <span class="lightbox-counter" id="lightbox-counter">1 / 6</span>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ==========================================================================
+         G. Testimonials
+         ========================================================================== -->
+    <section class="section section-warm" id="testimonials" aria-label="Guest Reflections">
+      <div class="container">
+        
+        <header class="section-header reveal">
+          <span class="eyebrow eyebrow-accent">GUEST REFLECTIONS</span>
+          <h2 class="section-title">Kind Words from Our Diners</h2>
+          <span class="demo-tag" style="margin-top: 0.85rem;">Sample Guest Reflections • Demo Content</span>
+        </header>
+
+        <div class="testimonials-grid">
+          
+          <article class="testimonial-card reveal">
+            <span class="testimonial-quote-icon" aria-hidden="true">“</span>
+            <blockquote class="testimonial-text">
+              The Dal Saffron alone is worth crossing the capital for. The balance of gentle charcoal smoke, aged spices, and silkiness is unlike anything else in modern Indian dining.
+            </blockquote>
+            <footer class="testimonial-author">
+              <p class="author-name">Aarav &amp; Meera Kapoor</p>
+              <p class="author-occasion">Anniversary Celebration</p>
+            </footer>
+          </article>
+
+          <article class="testimonial-card reveal">
+            <span class="testimonial-quote-icon" aria-hidden="true">“</span>
+            <blockquote class="testimonial-text">
+              Rarely do you find a restaurant that preserves deep heritage flavors while presenting each course with such clean, contemporary restraint. The hospitality was discreet and impeccable.
+            </blockquote>
+            <footer class="testimonial-author">
+              <p class="author-name">Vikram Singhania</p>
+              <p class="author-occasion">Private Tasting Dinner</p>
+            </footer>
+          </article>
+
+          <article class="testimonial-card reveal">
+            <span class="testimonial-quote-icon" aria-hidden="true">“</span>
+            <blockquote class="testimonial-text">
+              From the moment you step inside, the warmth of the space puts you at ease. The Dum Biryani brought back vivid memories of grandmother’s royal slow-steamed feast.
+            </blockquote>
+            <footer class="testimonial-author">
+              <p class="author-name">Devika &amp; Rohan Roy</p>
+              <p class="author-occasion">Family Reunion</p>
+            </footer>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         H. Reservations
+         ========================================================================== -->
+    <section class="section" id="reservations" aria-label="Table Reservations">
+      <div class="container">
+        
+        <div class="reservation-wrapper reveal">
+          
+          <!-- Informational Aside -->
+          <div class="reservation-aside">
+            <div>
+              <span class="eyebrow" style="color: var(--color-gold);">RESERVATIONS</span>
+              <h2 class="res-aside-title">Your Table Awaits.</h2>
+              <p class="res-aside-desc">
+                We warmly welcome table bookings for lunch and dinner. For weekend dining and private banquet alcoves, advance notice of 48 hours is recommended.
+              </p>
+
+              <ul class="res-policy-list">
+                <li class="res-policy-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                  <span>Lunch: 12:30 PM – 3:30 PM | Dinner: 7:00 PM – 11:30 PM</span>
+                </li>
+                <li class="res-policy-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                  <span>Tables held for 15 minutes past scheduled arrival</span>
+                </li>
+                <li class="res-policy-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                  <span>Special dietary requirements catered with advance notice</span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- WhatsApp Reservation CTA -->
+            <div class="res-whatsapp-box">
+              <p class="res-whatsapp-label">Quick Mobile Assistance</p>
+              <a href="https://wa.me/919876543210?text=Hello%20The%20Saffron%20Table,%20I%20would%20like%20to%20inquire%20about%20a%20table%20reservation." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" style="width: 100%;">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+                <span>Book via WhatsApp</span>
+              </a>
+              <span class="demo-tag" style="margin-top: 0.5rem; display: block; text-align: center;">Demo Placeholder Number: +91 98765 43210</span>
+            </div>
+
+          </div>
+
+          <!-- Reservation Interactive Form -->
+          <div class="reservation-form-container">
+            <header style="margin-bottom: 2rem;">
+              <span class="eyebrow" style="margin-bottom: 0.35rem;">ONLINE BOOKING DEMO</span>
+              <h3 style="font-family: var(--font-serif); font-size: 1.8rem; color: var(--color-charcoal); font-weight: 500;">Reserve Your Experience</h3>
+            </header>
+
+            <form id="reservation-form" novalidate>
+              <div class="form-grid">
+                
+                <!-- Date -->
+                <div class="form-group" id="group-date">
+                  <label for="res-date" class="form-label">Reservation Date *</label>
+                  <input type="date" id="res-date" name="date" class="form-input" required>
+                  <span class="error-message">Please select a valid date.</span>
+                </div>
+
+                <!-- Time -->
+                <div class="form-group" id="group-time">
+                  <label for="res-time" class="form-label">Seating Time *</label>
+                  <select id="res-time" name="time" class="form-select" required>
+                    <option value="" disabled selected>Select time slot</option>
+                    <optgroup label="Lunch Service">
+                      <option value="12:30 PM">12:30 PM</option>
+                      <option value="1:00 PM">1:00 PM</option>
+                      <option value="1:30 PM">1:30 PM</option>
+                      <option value="2:00 PM">2:00 PM</option>
+                      <option value="2:30 PM">2:30 PM</option>
+                    </optgroup>
+                    <optgroup label="Dinner Service">
+                      <option value="7:00 PM">7:00 PM</option>
+                      <option value="7:30 PM">7:30 PM</option>
+                      <option value="8:00 PM">8:00 PM</option>
+                      <option value="8:30 PM">8:30 PM</option>
+                      <option value="9:00 PM">9:00 PM</option>
+                      <option value="9:30 PM">9:30 PM</option>
+                      <option value="10:00 PM">10:00 PM</option>
+                    </optgroup>
+                  </select>
+                  <span class="error-message">Please select a preferred seating time.</span>
+                </div>
+
+                <!-- Guests -->
+                <div class="form-group" id="group-guests">
+                  <label for="res-guests" class="form-label">Number of Guests *</label>
+                  <select id="res-guests" name="guests" class="form-select" required>
+                    <option value="" disabled selected>Party size</option>
+                    <option value="1 Guest">1 Guest</option>
+                    <option value="2 Guests">2 Guests (Intimate Table)</option>
+                    <option value="3 Guests">3 Guests</option>
+                    <option value="4 Guests">4 Guests (Standard Dining)</option>
+                    <option value="5 Guests">5 Guests</option>
+                    <option value="6 Guests">6 Guests (Banquette)</option>
+                    <option value="7+ Guests">7+ Guests (Private Alcove)</option>
+                  </select>
+                  <span class="error-message">Please choose your party size.</span>
+                </div>
+
+                <!-- Seating Area Preference -->
+                <div class="form-group" id="group-area">
+                  <label for="res-area" class="form-label">Seating Preference</label>
+                  <select id="res-area" name="area" class="form-select">
+                    <option value="Main Dining Room">Main Dining Room</option>
+                    <option value="Private Dining Alcove">Private Dining Alcove</option>
+                    <option value="Courtyard Verandah">Courtyard Verandah</option>
+                    <option value="Chef's View Counter">Chef's View Counter</option>
+                  </select>
+                </div>
+
+                <!-- Guest Name -->
+                <div class="form-group" id="group-name">
+                  <label for="res-name" class="form-label">Full Name *</label>
+                  <input type="text" id="res-name" name="name" class="form-input" placeholder="e.g. Aryan Sharma" required autocomplete="name">
+                  <span class="error-message">Please enter your full name.</span>
+                </div>
+
+                <!-- Phone -->
+                <div class="form-group" id="group-phone">
+                  <label for="res-phone" class="form-label">Phone Number *</label>
+                  <input type="tel" id="res-phone" name="phone" class="form-input" placeholder="e.g. +91 98765 43210" required autocomplete="tel">
+                  <span class="error-message">Please enter a valid phone number.</span>
+                </div>
+
+                <!-- Special Requests -->
+                <div class="form-group full-width" id="group-notes">
+                  <label for="res-notes" class="form-label">Special Occasion or Dietary Notes</label>
+                  <textarea id="res-notes" name="notes" rows="3" class="form-textarea" placeholder="Let us know if you are celebrating a special milestone or have allergies..."></textarea>
+                </div>
+
+              </div>
+
+              <div class="form-submit-row">
+                <button type="submit" class="btn btn-gold" id="btn-submit-reservation" style="width: 100%;">
+                  <span>Confirm Table Reservation</span>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                </button>
+                <p class="form-disclaimer">
+                  * Note: This is an interactive sales demo. Submitting demonstrates the user experience and validation without storing real customer data.
+                </p>
+              </div>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Reservation Feedback / Demo Notice Modal -->
+    <div class="demo-modal" id="demo-reservation-modal" role="dialog" aria-modal="true" aria-labelledby="demo-modal-title">
+      <div class="demo-modal-dialog">
+        <div class="demo-modal-icon" aria-hidden="true">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+        </div>
+        <h3 class="demo-modal-title" id="demo-modal-title">Reservation Demo Received</h3>
+        <p class="demo-modal-message">
+          <strong>This is a website demo.</strong> Online reservations will be connected when the final website is configured with your restaurant’s preferred booking software or backend service.
+        </p>
+
+        <div class="demo-modal-details" id="demo-modal-summary">
+          <!-- Populated by JavaScript -->
+        </div>
+
+        <button type="button" class="btn btn-gold" id="btn-close-demo-modal" style="width: 100%;">Understood &amp; Return to Website</button>
+      </div>
+    </div>
+
+    <!-- ==========================================================================
+         I. Location and Contact
+         ========================================================================== -->
+    <section class="section section-warm" id="contact" aria-label="Location and Hours">
+      <div class="container">
+        
+        <header class="section-header reveal">
+          <span class="eyebrow eyebrow-accent">FIND US</span>
+          <h2 class="section-title">Visit The Saffron Table</h2>
+          <p class="section-subtitle">Located in the historic heart of New Delhi, welcoming guests for intimate lunches and evening feasts.</p>
+        </header>
+
+        <div class="contact-layout">
+          
+          <!-- Information Cards -->
+          <div class="contact-cards-col reveal">
+            
+            <!-- Address Card -->
+            <div class="contact-card">
+              <h3 class="contact-card-title">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                <span>Our Address</span>
+              </h3>
+              <p class="contact-card-text">
+                82/A, Inner Circle, Connaught Place,<br>
+                Opposite Block C Promenade, New Delhi, 110001
+              </p>
+              <span class="demo-tag" style="margin-top: 0.75rem;">Sample Demo Address</span>
+            </div>
+
+            <!-- Hours Card -->
+            <div class="contact-card">
+              <h3 class="contact-card-title">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                <span>Dining Hours</span>
+              </h3>
+              <table class="hours-table" aria-label="Restaurant Opening Hours">
+                <tbody>
+                  <tr>
+                    <td>Monday – Thursday</td>
+                    <td>12:30 PM – 3:30 PM &nbsp;|&nbsp; 7:00 PM – 11:00 PM</td>
+                  </tr>
+                  <tr>
+                    <td>Friday – Saturday</td>
+                    <td>12:30 PM – 3:30 PM &nbsp;|&nbsp; 7:00 PM – 11:45 PM</td>
+                  </tr>
+                  <tr>
+                    <td>Sunday Heritage Brunch &amp; Dinner</td>
+                    <td>12:00 PM – 4:00 PM &nbsp;|&nbsp; 7:00 PM – 11:00 PM</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="demo-tag" style="margin-top: 0.75rem;">Sample Operating Hours</span>
+            </div>
+
+            <!-- Direct Contact Card -->
+            <div class="contact-card">
+              <h3 class="contact-card-title">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                <span>Direct Inquiries</span>
+              </h3>
+              <p class="contact-card-text">
+                General Inquiries: <a href="tel:+911149876543" style="font-weight: 500; color: var(--color-forest);">+91 11 4987 6543</a><br>
+                Private Dining &amp; Events: <a href="mailto:events@thesaffrontable.demo" style="font-weight: 500; color: var(--color-forest);">events@thesaffrontable.demo</a>
+              </p>
+              <span class="demo-tag" style="margin-top: 0.75rem;">Configurable Demo Contact Info</span>
+            </div>
+
+          </div>
+
+          <!-- Interactive Map Card Preview -->
+          <div class="map-card-col reveal">
+            <div class="map-frame-box">
+              <div class="map-visual-header">
+                <span class="map-location-badge">PRIME LOCATION</span>
+                <h3 class="map-place-name">Connaught Place, New Delhi</h3>
+                <p class="map-address-detail">
+                  Situated in New Delhi’s iconic heritage colonial circle, easily accessible via Barakhamba Road and Rajiv Chowk.
+                </p>
+              </div>
+
+              <ul class="map-features-list">
+                <li class="map-feature-row">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Complimentary Valet Parking at Gate 3</span>
+                </li>
+                <li class="map-feature-row">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>2-minute stroll from Rajiv Chowk Metro (Gate 6)</span>
+                </li>
+                <li class="map-feature-row">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Wheelchair-accessible elevator &amp; seating</span>
+                </li>
+                <li class="map-feature-row">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Air-conditioned private dining sanctuary</span>
+                </li>
+              </ul>
+
+              <div class="map-actions">
+                <a href="https://maps.google.com/?q=Connaught+Place+New+Delhi" target="_blank" rel="noopener noreferrer" class="btn btn-gold">
+                  <span>Get Directions on Google Maps</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==========================================================================
+       Full Menu Interactive Modal
+       ========================================================================== -->
+  <div class="menu-modal" id="menu-modal" role="dialog" aria-modal="true" aria-labelledby="menu-modal-heading">
+    <div class="menu-modal-dialog">
+      
+      <div class="menu-modal-header">
+        <div>
+          <span class="eyebrow" style="color: var(--color-gold); margin-bottom: 0.2rem;">THE CULINARY REPERTOIRE</span>
+          <h2 class="menu-modal-title" id="menu-modal-heading">The Saffron Table Full Menu</h2>
+        </div>
+        <button type="button" class="menu-modal-close" id="menu-modal-close" aria-label="Close full menu modal">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
+      </div>
+
+      <!-- Category Filter Tabs -->
+      <div class="menu-tabs" role="tablist" aria-label="Menu Categories">
+        <button type="button" role="tab" class="menu-tab-btn active" id="tab-btn-starters" aria-selected="true" aria-controls="panel-starters" data-panel="panel-starters">Starters &amp; Tandoor</button>
+        <button type="button" role="tab" class="menu-tab-btn" id="tab-btn-mains" aria-selected="false" aria-controls="panel-mains" data-panel="panel-mains">Heritage Curries</button>
+        <button type="button" role="tab" class="menu-tab-btn" id="tab-btn-biryanis" aria-selected="false" aria-controls="panel-biryanis" data-panel="panel-biryanis">Biryanis &amp; Breads</button>
+        <button type="button" role="tab" class="menu-tab-btn" id="tab-btn-desserts" aria-selected="false" aria-controls="panel-desserts" data-panel="panel-desserts">Artisanal Desserts</button>
+        <button type="button" role="tab" class="menu-tab-btn" id="tab-btn-drinks" aria-selected="false" aria-controls="panel-drinks" data-panel="panel-drinks">Beverages &amp; Teas</button>
+      </div>
+
+      <!-- Menu Category Content Panels -->
+      <div class="menu-modal-body">
+        
+        <!-- Panel 1: Starters & Tandoor -->
+        <div class="menu-category-panel active" id="panel-starters" role="tabpanel" aria-labelledby="tab-btn-starters">
+          
+          <div class="menu-item-row">
+            <div class="menu-item-head">
+              <h4 class="menu-item-name"><span class="diet-indicator" aria-hidden="true"></span> Tandoori Paneer Tikka</h4>
+              <span class="menu-item-price">₹349</span>
+            </div>
+            <p class="menu-item-description">Organic cottage cheese steeped in Kashmiri chili, hung curd, and mustard oil, charred over charcoal.</p>
+          </div>
+
+          <div class="menu-item-row">
+            <div class="menu-item-head">
+              <h4 class="menu-item-name"><span class="diet-indicator" aria-hidden="true"></span> Bharwan Khumb Malai</h4>
+              <span class="menu-item-price">₹369</span>
+            </div>
+            <p class="menu-item-description">Charcoal-grilled button mushrooms stuffed with spiced cheddar, roasted pine nuts, and green cardamom.</p>
+          </div>
+
+          <div class="menu-item-row">
+            <div class="menu-item-head">
+              <h4 class="menu-item-name"><span class="diet-indicator" aria-hidden="true"></span> Dahi Ke Kebab</h4>
+              <span class="menu-item-price">₹319</span>
+            </div>
+            <p class="menu-item-description">Silken hung yogurt patties with fresh coriander roots, ginger juliennes, and a delicate crumb coating.</p>
+          </div>
+
+          <div class="menu-item-row">
+            <div class="menu-item-head">
+              <h4 class="menu-item-name"><span class="diet-indicator" aria-hidden="true"></span> Crispy Lotus Stem Chaat</h4>
+              <span class="menu-item-price">₹289</span>
+            </div>
+            <p class="menu-item-description">Flash-fried lotus root tossed in sonth chutney, pomegranate molasses, and spiced hung yogurt pearls.</p>
+          </div>
+
+        </div>
+
+        <!-- Panel 2: Heritage Curries -->
+        <div class="menu-category-panel" id="panel-mains" role="tabpanel" aria-labelledby="tab-btn-mains">
+          
+          <div class="menu-item-row">
+            <div class="menu-item-head">
+              <h4 class="menu-item-name"><span class="diet-indicator" aria-hidden="true"></span> Dal Saffron (House Signature)</h4>
+              <span class="menu-item-price">₹329</span>
+            </div>
+            <p class="menu-item-description">Black lentils slow-cooked overnight for 36 hours over gentle embers, finished with white churned butter and saffron.</p>
+          </div>
+
+          <div class="menu-item-row">
+            <div class="menu-item-head">
+              <h4 class="menu-item-name"><span class="diet-indicator" aria-hidden="true"></span> Paneer Lababdar</h4>
+              <span class="menu-item-price">₹389</span>
+            </div>
+            <p class="menu-item-description">Hand-pressed paneer batons simmered in a luscious gravy of vine-ripened tomatoes, cashews, and crushed kasuri methi.</p>
+          </div>
+
+          <div class="menu-item-row">
+            <div class="menu-item-head">
+              <h4 class="menu-item-name"><span class="diet-indicator" aria-hidden="true"></span> Subz Handi Nizami</h4>
+              <span class="menu-item-price">₹349</span>
+            </div>
+            <p class="menu-item-description">Seasonal winter vegetables cooked in a rich, slow-simmered almond and brown onion reduction with mace.</p>
+          </div>
+
+          <div class="menu-item-row">
+            <div class="menu-item-head">
+              <h4 class="menu-item-name"><span class="diet-indicator" aria-hidden="true"></span> Smoked Baingan Bharta</h4>
+              <span class="menu-item-price">₹299</span>
+            </div>
+            <p class="menu-item-description">Tandoor-charred baby eggplants mashed with country tomatoes, crushed cumin, and cold-pressed mustard oil.</p>
+          </div>
+
+        </div>
+
+        <!-- Panel 3: Biryanis & Breads -->
+        <div class="menu-category-panel" id="panel-biryanis" role="tabpanel" aria-labelledby="tab-btn-biryanis">
+          
+          <div class="menu-item-row">
+            <div class="menu-item-head">
+              <h4 class="menu-item-name"><span class="diet-indicator" aria-hidden="true"></span> Saffron Dum Biryani</h4>
+              <span class="menu-item-price">₹449</span>
+            </div>
+            <p class="menu-item-description">Fragrant basmati rice slow-steamed under dough purdah with saffron broth, rose water, and garden vegetables.</p>
+          </div>
+
+          <div class="menu-item-row">
+            <div class="menu-item-head">
+              <h4 class="menu-item-name"><span class="diet-indicator" aria-hidden="true"></span> Truffle &amp; Garlic Naan</h4>
+              <span class="menu-item-price">₹129</span>
+            </div>
+            <p class="menu-item-description">Clay-oven refined flour bread brushed with virgin garlic butter and subtle aromatic white truffle essence.</p>
+          </div>
+
+          <div class="menu-item-row">
+            <div class="menu-item-head">
+              <h4 class="menu-item-name"><span class="diet-indicator" aria-hidden="true"></span> Mirchi Paratha</h4>
+              <span class="menu-item-price">₹99</span>
+            </div>
+            <p class="menu-item-description">Multi-layered flaky whole-wheat bread dusted with roasted red chili flakes and fresh mint.</p>
+          </div>
+
+          <div class="menu-item-row">
+            <div class="menu-item-head">
+              <h4 class="menu-item-name"><span class="diet-indicator" aria-hidden="true"></span> Roomali Roti</h4>
+              <span class="menu-item-price">₹79</span>
+            </div>
+            <p class="menu-item-description">Handkerchief-thin bread tossed in the air and baked over an inverted wok.</p>
+          </div>
+
+        </div>
+
+        <!-- Panel 4: Desserts -->
+        <div class="menu-category-panel" id="panel-desserts" role="tabpanel" aria-labelledby="tab-btn-desserts">
+          
+          <div class="menu-item-row">
+            <div class="menu-item-head">
+              <h4 class="menu-item-name"><span class="diet-indicator" aria-hidden="true"></span> Gulab Jamun Cheesecake</h4>
+              <span class="menu-item-price">₹249</span>
+            </div>
+            <p class="menu-item-description">Velvety cardamom cheesecake on almond biscuit base, crowned with warm artisanal mini gulab jamun.</p>
+          </div>
+
+          <div class="menu-item-row">
+            <div class="menu-item-head">
+              <h4 class="menu-item-name"><span class="diet-indicator" aria-hidden="true"></span> Shahi Tukda Brioche</h4>
+              <span class="menu-item-price">₹229</span>
+            </div>
+            <p class="menu-item-description">Clarified butter toasted French brioche bathed in reduced saffron rabri and gilded with silver leaf.</p>
+          </div>
+
+          <div class="menu-item-row">
+            <div class="menu-item-head">
+              <h4 class="menu-item-name"><span class="diet-indicator" aria-hidden="true"></span> Kesar Pista Kulfi</h4>
+              <span class="menu-item-price">₹199</span>
+            </div>
+            <p class="menu-item-description">Slow-reduced whole milk ice cream scented with Kashmiri saffron and Iranian pistachios.</p>
+          </div>
+
+        </div>
+
+        <!-- Panel 5: Beverages & Teas -->
+        <div class="menu-category-panel" id="panel-drinks" role="tabpanel" aria-labelledby="tab-btn-drinks">
+          
+          <div class="menu-item-row">
+            <div class="menu-item-head">
+              <h4 class="menu-item-name">The Saffron Elixir</h4>
+              <span class="menu-item-price">₹219</span>
+            </div>
+            <p class="menu-item-description">Clarified pineapple juice, Kashmiri saffron syrup, lemon tonic, and a smoked cardamom vapor.</p>
+          </div>
+
+          <div class="menu-item-row">
+            <div class="menu-item-head">
+              <h4 class="menu-item-name">Rose &amp; Lychee Shikanji</h4>
+              <span class="menu-item-price">₹179</span>
+            </div>
+            <p class="menu-item-description">Cold-pressed lychee nectar with Damascus rose petals, black rock salt, and sparkling soda.</p>
+          </div>
+
+          <div class="menu-item-row">
+            <div class="menu-item-head">
+              <h4 class="menu-item-name">First Flush Darjeeling Tea</h4>
+              <span class="menu-item-price">₹169</span>
+            </div>
+            <p class="menu-item-description">Single-estate Himalayan spring harvest with subtle muscatel notes, served in porcelain.</p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Narrative Story Modal (Discover Our Story) -->
+  <div class="menu-modal" id="story-modal" role="dialog" aria-modal="true" aria-labelledby="story-modal-heading">
+    <div class="menu-modal-dialog" style="max-width: 720px;">
+      <div class="menu-modal-header">
+        <div>
+          <span class="eyebrow" style="color: var(--color-gold); margin-bottom: 0.2rem;">THE PHILOSOPHY</span>
+          <h2 class="menu-modal-title" id="story-modal-heading">The Saffron Story</h2>
+        </div>
+        <button type="button" class="menu-modal-close" id="story-modal-close" aria-label="Close story modal">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
+      </div>
+      <div class="menu-modal-body" style="font-size: 0.95rem; line-height: 1.8; color: var(--color-text-muted);">
+        <p style="margin-bottom: 1.25rem;">
+          <strong style="color: var(--color-charcoal); font-size: 1.05rem;">The Saffron Table</strong> was envisioned as an unhurried sanctuary celebrating the enduring culinary soul of India. In an era of haste, we slow down.
+        </p>
+        <p style="margin-bottom: 1.25rem;">
+          Our master chefs take inspiration from centuries-old imperial banquets and humble regional hearths. Saffron is our namesake because of its rarity and patience: it requires 75,000 delicate crocus blooms hand-harvested at dawn to yield just one pound of the spice. That reverence for craft permeates our kitchen.
+        </p>
+        <p style="margin-bottom: 1.5rem;">
+          Every marinade is given twenty-four hours to seep into organic vegetables and cheeses; our dal rests over low embers until the texture turns like velvet; and our breads are slapped onto clay tandoor walls at blistering temperatures by experienced hands.
+        </p>
+        <div style="border-top: 1px solid rgba(36, 35, 31, 0.1); padding-top: 1.25rem; display: flex; justify-content: space-between; align-items: center;">
+          <span style="font-family: var(--font-serif); font-size: 1.2rem; font-style: italic; color: var(--color-gold);">“A Taste Worth Remembering.”</span>
+          <span class="demo-tag">Sample Culinary Narrative</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       J. Footer
+       ========================================================================== -->
+  <footer class="site-footer" id="site-footer">
+    <div class="container">
+      
+      <div class="footer-top-grid">
+        
+        <!-- Brand Summary -->
+        <div class="footer-brand-col">
+          <span class="brand-title">THE SAFFRON TABLE</span>
+          <p class="footer-tagline">“A Taste Worth Remembering.”</p>
+          <p class="footer-desc">
+            An upscale contemporary Indian dining destination celebrating heritage recipes, slow-simmered spices, and thoughtful hospitality in New Delhi.
+          </p>
+          <div class="footer-social-links" aria-label="Social Media Channels">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Instagram Profile (Demo)">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+            </a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Facebook Page (Demo)">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+            </a>
+            <a href="https://tripadvisor.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="TripAdvisor Profile (Demo)">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><circle cx="8" cy="12" r="2"></circle><circle cx="16" cy="12" r="2"></circle></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick Navigation -->
+        <div>
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-links-list">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#story">Our Story</a></li>
+            <li><a href="#menu">Signature Menu</a></li>
+            <li><a href="#experience">The Experience</a></li>
+            <li><a href="#gallery">Visual Gallery</a></li>
+            <li><a href="#reservations">Reservations</a></li>
+          </ul>
+        </div>
+
+        <!-- Dining Hours -->
+        <div>
+          <h4 class="footer-col-title">Dining Hours</h4>
+          <ul class="footer-contact-list">
+            <li><strong>Lunch Service:</strong><br>Mon – Sun: 12:30 PM – 3:30 PM</li>
+            <li style="margin-top: 0.5rem;"><strong>Dinner Service:</strong><br>Mon – Sun: 7:00 PM – 11:30 PM</li>
+            <li style="margin-top: 0.5rem; color: var(--color-gold); font-size: 0.78rem;">Last orders 45 mins before close</li>
+          </ul>
+        </div>
+
+        <!-- Location & Contact -->
+        <div>
+          <h4 class="footer-col-title">Contact &amp; Location</h4>
+          <ul class="footer-contact-list">
+            <li>82/A, Inner Circle, Connaught Place,<br>New Delhi, Delhi 110001</li>
+            <li style="margin-top: 0.5rem;">Phone: <a href="tel:+911149876543" style="color: var(--color-gold-light);">+91 11 4987 6543</a></li>
+            <li>Inquiries: <a href="mailto:info@thesaffrontable.demo" style="color: var(--color-gold-light);">info@thesaffrontable.demo</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom-row">
+        <div>
+          &copy; <span id="current-year">2026</span> The Saffron Table. All rights reserved.
+        </div>
+        <div class="footer-demo-badge">
+          <span>Client Presentation Demo &bull; Fine Dining Digital Experience</span>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Vanilla JavaScript -->
+  <script src="js/script.js"></script>
+</body>
+</html>
